@@ -1,0 +1,118 @@
+// Function Declaration (Statement)
+// javascript
+// Copy
+// Edit
+
+
+// function greet(name) {
+//     console.log("Hello " + name);
+// }
+
+// greet("Jeeva"); // Output: Hello Jeeva
+
+
+// const add = function(a, b) {
+//     return a + b;
+// };
+
+// console.log(add(5, 3)); // Output: 8
+
+
+// (function() {
+//     console.log("This runs immediately!");
+// })();
+
+
+// const multiply = (a, b) => a * b;
+
+// console.log(multiply(4, 5)); // Output: 20
+
+
+
+// // function name () {}
+
+// function box() {
+//     var a = 10;
+//     var a = 20; // 'var' allows re-declaration
+//     console.log(a); // Output: 20
+
+//     let b = 30;
+//     b = 40; // 'let' allows re-assignment, but not re-declaration
+//     console.log(b); // Output: 40
+
+//     const c = 50;
+//     // c = 60; // ❌ Error: Assignment to constant variable
+//     console.log(c); // Output: 50
+// }
+
+// box(); // Call the function
+
+
+// // Function Statement Declaration --> parameter & argument
+
+// function day1(hi) {
+//     console.log(hi);
+// }
+
+// day1("hello world"); // Output: hello world
+
+
+// let ano = function (fun) {
+//     console.log(fun);
+// };
+// ano("anonymous");  // Output: anonymous
+
+
+// (function (iife) {
+//     console.log(iife);
+// })("iife");  // Output: iife
+
+
+// let aro = (abc) => {
+//     console.log(abc);
+// };
+// aro("arrow fun");  // Output: arrow fun
+
+
+// console.log(a + b);  // Addition
+// console.log(a - b);  // Subtraction
+// console.log(a * b);  // Multiplication
+// console.log(a / b);  // Division
+// console.log(a % b);  // Modulus (remainder)
+// console.log(a ** b); // Exponentiation (a raised to b)
+  
+
+// // increament and decrement operator
+
+// let c = 20;
+// c++;               // Post-increment
+// console.log(c);    // Output: 21
+
+// let d = 20;
+// d--;               // Post-decrement
+// console.log(d);    // Output: 19
+
+
+// // Assignment Operator
+
+// let e = 10;
+// e += 10;           // Same as: e = e + 10
+// console.log(e);    // Output: 20
+
+
+// // * Comparison Operator
+// // * Logical Operators
+// // * strict Operators
+// // * Ternary Operator
+
+
+
+let mp = [10, 20, 30, 40, 50]
+let sum = mp.map((v, i, a) => a * 10)
+console.log(sum);
+
+
+
+
+
+
